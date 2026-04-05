@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://organic-cosme-jp.vercel.app/sitemap.xml
