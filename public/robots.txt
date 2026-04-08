@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://organic-cosme-jp.vercel.app/sitemap.xml
+Sitemap: https://okuwabara07-gif.github.io/organic-cosme-jp/sitemap.xml
