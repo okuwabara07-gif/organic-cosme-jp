@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: 'https://organic-cosme-jp.vercel.app',
-  generateRobotsTxt: true,
+  generateRobotsTxt: false,
   robotsTxtOptions: {
     additionalSitemaps: ['https://organic-cosme-jp.vercel.app/sitemap.xml'],
   },
