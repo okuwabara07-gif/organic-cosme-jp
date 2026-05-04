@@ -4,7 +4,14 @@ export const metadata: Metadata = {
   description: 'オーガニックコスメ情報',
   openGraph: { title: 'オーガニックコスメ', description: 'オーガニックコスメ情報', type: 'website', locale: 'ja_JP', siteName: 'オーガニックコスメ' },
   twitter: { card: 'summary_large_image', title: 'オーガニックコスメ', description: 'オーガニックコスメ情報' },
-  robots: { index: true, follow: true },
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
 }
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
